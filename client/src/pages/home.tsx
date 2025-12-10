@@ -25,7 +25,7 @@ export default function Home() {
             className="text-2xl md:text-3xl font-medium text-foreground"
             data-testid="text-name"
           >
-            Hello, my name is YOUR NAME
+            Hello, my name is Luke Bumengeg
           </h2>
         </div>
         
