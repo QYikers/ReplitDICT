@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import profileImage from "@assets/steve-harvey-shrek-origin-v0-wxew6tqwohge1_1765364794559.webp";
 
 export default function Home() {
   return (
@@ -16,9 +17,12 @@ export default function Home() {
             className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full ring-4 ring-primary/20 shadow-xl overflow-hidden bg-muted flex items-center justify-center"
             data-testid="img-profile-container"
           >
-            <span className="text-6xl md:text-7xl text-muted-foreground font-medium">
-              ?
-            </span>
+            <img 
+              src={profileImage} 
+              alt="Profile photo"
+              className="w-full h-full object-cover"
+              data-testid="img-profile"
+            />
           </div>
           
           <h2 
